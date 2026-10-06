@@ -1,9 +1,10 @@
 'use strict';
+
+document.documentElement.classList.add('js');
 const toggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 if (toggle && navigation) {
   toggle.hidden = false;
-  document.documentElement.classList.add('js');
   const closeMenu = () => {
     toggle.setAttribute('aria-expanded', 'false');
     navigation.classList.remove('is-open');
@@ -22,7 +23,9 @@ if (toggle && navigation) {
       toggle.focus();
     }
   });
-  window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+  const media = window.matchMedia('(min-width: 761px)');
+  const resetOnDesktop = () => { if (media.matches) closeMenu(); };
+  media.addEventListener?.('change', resetOnDesktop);
 }
 document.querySelectorAll('[data-year]').forEach((element) => {
   element.textContent = String(new Date().getFullYear());
