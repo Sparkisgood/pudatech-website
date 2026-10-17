@@ -24,3 +24,5 @@
 .project-dialog:has(#precision-gears-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#worm-meshing-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#electromagnetic-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
