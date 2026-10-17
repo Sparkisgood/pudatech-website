@@ -64,3 +64,5 @@
 .project-dialog:has(#lathe-controller-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#stone-machine-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#cnc-hobbing-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
