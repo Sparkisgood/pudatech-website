@@ -6,3 +6,5 @@
 .project-photo-real:before{display:none}.project-photo-real>img{width:100%;height:100%;object-fit:cover;display:block}.project-dialog:has(#quartz-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}.quartz-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:16px 0}.quartz-photo-grid figure{margin:0}.quartz-photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:8px}.quartz-photo-grid figcaption{font-size:.82rem;color:#63748b;margin-top:6px}.quartz-photo-grid a:focus-visible{outline:3px solid #1976da}.project-media>p{font-size:.85rem;color:#63748b}@media(max-width:600px){.quartz-photo-grid{grid-template-columns:1fr}}
 
 .project-dialog:has(#motokubo-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#laser-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
