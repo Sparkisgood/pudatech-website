@@ -8,3 +8,5 @@
 .project-dialog:has(#motokubo-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#laser-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#automation-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
