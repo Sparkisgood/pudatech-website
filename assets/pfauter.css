@@ -50,3 +50,5 @@
 .project-dialog:has(#line-laser-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#button-endurance-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#cnc-smart-meter-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
