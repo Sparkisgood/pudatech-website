@@ -28,3 +28,5 @@
 .project-dialog:has(#electromagnetic-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#power-meter-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#local-meter-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
