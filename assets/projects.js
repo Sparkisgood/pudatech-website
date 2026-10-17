@@ -15,7 +15,7 @@ document.querySelectorAll('.project-detail').forEach(button=>button.addEventList
   document.querySelector('#dialog-title').textContent=item.title;
   document.querySelector('#dialog-category').textContent=item.category;
   document.querySelector('#dialog-description').textContent=item.description;
-  if(typeof dialog.showModal==='function')dialog.showModal();
+  const media=document.querySelector('#pfauter-media');media.hidden=Number(button.dataset.index)!==2;if(typeof dialog.showModal==='function')dialog.showModal();
 }));
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});
