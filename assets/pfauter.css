@@ -58,3 +58,5 @@
 .project-dialog:has(#remote-feeder-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#hamai-60sp-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#chiai-slotter-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
