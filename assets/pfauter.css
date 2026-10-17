@@ -42,3 +42,5 @@
 .project-dialog:has(#liebherr-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
 
 .project-dialog:has(#inverter-replacement-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
+
+.project-dialog:has(#foam-router-media:not([hidden])){width:min(880px,calc(100vw - 32px));max-height:90vh;overflow:auto}
